@@ -4,8 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Badge from 'react-bootstrap/Badge';
 
 class Counter extends Component { 
+
+    // constructor() {
+    //     super();
+    //     this.buttonClicked = this.buttonClicked.bind(this);
+    // }
+
     state = {
-        count: 0,
+        count: this.props.counter.count,
         tags: ["tag1", "tag2", "tag3"]
     //     imageURL: 'https://picsum.photos/200',
     //     imageURL1: 'https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg',
@@ -27,13 +33,30 @@ class Counter extends Component {
                 <Badge bg = {classes + " m-2"}> {this.counter()} </Badge>{' '} 
               </span>
               
-              <button className = "btn btn-secondary btn-sm">Increment</button>
+              <button 
+                onClick={this.buttonClicked} 
+                className = "btn btn-secondary btn-sm m-2">
+                Increment
+              </button>
+
+              <button 
+                onClick={() => this.props.onClick(this.props.counter.id)} 
+                className = "btn btn-danger btn-sm">
+                Delete
+              </button>
+
 
               {this.state.tags.length === 0 && "Please create more tags"}
               {this.renderTags()}
               
             </div>
         );    
+    }
+
+    buttonClicked = () => {
+        console.log("the button is clicked")
+
+        this.setState({count: this.state.count + 1})
     }
 
     renderTags() {
