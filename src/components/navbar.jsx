@@ -60,33 +60,3 @@ class Title extends Component {
 }
  
 export default Title;
-
-
-// function Title() {
-
-//     return (
-      // <Router>
-      //   <div>
-      //     <Navbar bg="dark" variant="dark">
-      //       <Container>
-      //         <Navbar.Brand href="/">Picture</Navbar.Brand>
-      //         <Nav className="me-auto">
-      //           <Nav.Link href="/about">About</Nav.Link>
-      //           <Nav.Link href="/contactUS">Contact Us</Nav.Link>
-      //         </Nav>
-      //       </Container>
-      //     </Navbar>
-
-      //     {/* Route components in a Routes component */}
-      //     <Routes>
-      //       <Route path="/about" element={<About />} />
-      //       <Route path="/contactUS" element={<ContactUs />} />
-      //       <Route path="/" element={<Home />} />
-      //     </Routes>
-      //   </div>
-      // </Router>
-//     );
-    
-//   }
-  
-//   export default Title;
