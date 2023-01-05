@@ -11,15 +11,15 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
 // import Home component
-import Home from "./Home";
+import Home from "./Home/home.js";
 // import About component
-import About from "./About";
+import About from "./about";
 // import ContactUs component
 import ContactUs from "./ContactUs";
 // import Project component
 import Projects from "./Projects";
 //import my picture
-import myPic from './image/fake news logo.png'; 
+import myPic from './image/me.png'; 
 
 class Title extends Component {
   state = {  } 
@@ -37,10 +37,10 @@ class Title extends Component {
         <div>
           <Navbar bg="dark" variant="dark">
             <Container>
-              <Navbar.Brand href="/">{<img src = {myPic} alt="" />}</Navbar.Brand>
+              <Navbar.Brand href="/">{<img src = {myPic} width="75" alt="" />}</Navbar.Brand>
               <Nav className="justify-content-end">
                 <Nav.Link href="/about" style = {this.styles}>About</Nav.Link>
-                <Nav.Link href="/contactUS" style = {this.styles}>Contact Us</Nav.Link>
+                <Nav.Link href="/contactUS" style = {this.styles}>Contact me</Nav.Link>
                 <Nav.Link href="/project" style = {this.styles}>My Projects</Nav.Link>
               </Nav>
             </Container>

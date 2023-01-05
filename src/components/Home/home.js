@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
+import React from "react"
 
 import myPic from "./homebg.png";
+import './home.css'
 
-function SizeUpdate() {
+function Home() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -16,23 +18,22 @@ function SizeUpdate() {
       window.removeEventListener('resize', handleWindowResize);
     };
   });
-  const temp = windowWidth;
+
+
   return (
-    <div >
-      <h1>Hi, welcome to my website!!!</h1>
-      <h1>Current window width: {windowWidth}</h1>
-      <p>My name is Weiming Quan</p>
-      <div style = {{
-          backgroundImage: `url(${myPic})`,
-          width: temp,
-          height: 500
-      }}>
-        <p>Test</p>
+    <header>
+      <div className = "head-text">
+        <div className = "head-image">
+          <img width = {windowWidth} src = {myPic} alt = "Freedom Blog" />
+        </div>
+          <div className ='text-on-image'>
+             <h3> Hi, welcome to my website! My name is Weiming Quan </h3>
+             <p> TEST </p>
+          </div>
       </div>
-      <img width = {windowWidth} src = {myPic} alt="" />
-    
-    </div>
+    </header>
+
   );
 }
 
-export default SizeUpdate;
+export default Home;

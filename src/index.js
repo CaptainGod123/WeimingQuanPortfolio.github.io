@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar.jsx';
-//import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +11,15 @@ root.render(
     <Navbar />
   </React.StrictMode>
 );
+
+
+// import SizeUpdate from './components/SizeUpdate';
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <SizeUpdate />
+//   </React.StrictMode>
+// );
 
 
 
