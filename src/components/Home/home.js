@@ -27,7 +27,8 @@ function Home() {
           <img width = {windowWidth} src = {myPic} alt = "Freedom Blog" />
         </div>
           <div className ='text-on-image'>
-             <h3> Hi, welcome to my website! My name is Weiming Quan </h3>
+             <h3>Hi, welcome to my website!</h3>
+             <h3>My name is Weiming Quan</h3>
              <p> TEST </p>
           </div>
       </div>

@@ -9,7 +9,7 @@ class About extends Component {
         return (
             <div>
             <h1>About Page</h1>
-            <img src = {this.state.imageURL} alt="" />
+            <img width = {10} height = {10} src = {this.state.imageURL} alt="" />
           </div>
         );
     }
