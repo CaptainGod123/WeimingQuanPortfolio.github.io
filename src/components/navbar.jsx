@@ -13,7 +13,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 // import Home component
 import Home from "./Home/home.js";
 // import About component
-import About from "./about";
+import About from "./About";
 // import ContactUs component
 import ContactUs from "./ContactUs";
 // import Project component
