@@ -41,6 +41,26 @@ class Title extends Component {
             <Container>
               <Navbar.Brand href="/">{<img src = {myPic} width="75" alt="" />}</Navbar.Brand>
               <Nav className="justify-content-end">
+                <Nav.Link href="/about" style = {this.styles}>About</Nav.Link>
+                <Nav.Link href="/contactUS" style = {this.styles}>Contact me</Nav.Link>
+                <Nav.Link href="project" style = {this.styles}>My Projects</Nav.Link>
+              </Nav>
+            </Container>
+          </Navbar>
+
+          {/* Route components in a Routes component */}
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/contactUS" element={<ContactUs />} />
+            <Route path="/project" element={<Projects />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+
+
+          {/* <Navbar bg="dark" variant="dark">
+            <Container>
+              <Navbar.Brand href="/">{<img src = {myPic} width="75" alt="" />}</Navbar.Brand>
+              <Nav className="justify-content-end">
                 <Nav.Link href="/weiming-quan-portfolio/about/" style = {this.styles}>About</Nav.Link>
                 <Nav.Link href="/weiming-quan-portfolio/contactUS" style = {this.styles}>Contact me</Nav.Link>
                 <Nav.Link href="/weiming-quan-portfolio/project" style = {this.styles}>My Projects</Nav.Link>
@@ -48,20 +68,12 @@ class Title extends Component {
             </Container>
           </Navbar>
 
-          {/* Route components in a Routes component */}
-          {/* <Routes>
-            <Route path="/about" element={<About />} />
-            <Route path="/contactUS" element={<ContactUs />} />
-            <Route path="/project" element={<Projects />} />
-            <Route path="/" element={<Home />} />
-          </Routes> */}
-
           <Routes>
             <Route path="/weiming-quan-portfolio/about/" element={<About />} />
-            <Route path="/weiming-quan-portfolio/contactUS" element={<ContactUs />} />
-            <Route path="/weiming-quan-portfolio/project" element={<Projects />} />
+            <Route path="/weiming-quan-portfolio/contactUS/" element={<ContactUs />} />
+            <Route path="/weiming-quan-portfolio/project/" element={<Projects />} />
             <Route path="/" element={<Home />} />
-          </Routes>
+          </Routes> */}
 
         </div>
       </Router>
