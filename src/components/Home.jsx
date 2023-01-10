@@ -20,7 +20,8 @@ function SizeUpdate() {
   return (
     <div >
       <h1>Hi, welcome to my website!!!</h1>
-      <h1>Current window width: {windowWidth}</h1>
+      <p>Current window width: {windowWidth}</p>
+      <p>Hello Test</p>
       <p>My name is Weiming Quan</p>
       <div style = {{
           backgroundImage: `url(${myPic})`,
