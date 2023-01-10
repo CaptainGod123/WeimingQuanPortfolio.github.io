@@ -49,12 +49,20 @@ class Title extends Component {
           </Navbar>
 
           {/* Route components in a Routes component */}
-          <Routes>
+          {/* <Routes>
             <Route path="/about" element={<About />} />
             <Route path="/contactUS" element={<ContactUs />} />
             <Route path="/project" element={<Projects />} />
             <Route path="/" element={<Home />} />
+          </Routes> */}
+
+            <Routes>
+            <Route path="/weiming-quan-portfolio/about/" element={<About />} />
+            <Route path="/weiming-quan-portfolio/contactUS" element={<ContactUs />} />
+            <Route path="/weiming-quan-portfolio/project" element={<Projects />} />
+            <Route path="/weiming-quan-portfolio/" element={<Home />} />
           </Routes>
+
         </div>
       </Router>
     );
