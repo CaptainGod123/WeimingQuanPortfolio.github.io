@@ -13,11 +13,11 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 // import Home component
 import Home from "./Home/home.js";
 // import About component
-import About from "./About";
+import About from "./About/About.jsx";
 // import ContactUs component
-import ContactUs from "./ContactUs";
+import ContactUs from "./Contacts/ContactUs.jsx";
 // import Project component
-import Projects from "./Projects";
+import Projects from "./Projects/Projects.jsx";
 //import my picture
 import myPic from './image/me.png'; 
 
@@ -30,6 +30,8 @@ class Title extends Component {
     // textAlign: "center",
     // alignSelf: 'flex-end'
   };
+
+//navbar height is 111
 
   render() { 
     return (     
