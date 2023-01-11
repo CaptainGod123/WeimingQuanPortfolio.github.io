@@ -1,12 +1,19 @@
 .head-text {
-    position: relative;
+  position: relative;
 }
 
-.text-on-image {
-   color: rgb(0, 0, 0);
-   position: absolute;
-   font-size: 50px;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+.pic {
+  position: absolute;
+  transform: translate(-240%, -50%);
+  /* transform: translate(-135%, -50%);  windowWidth/4 */
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  width: 700px;
+
+  position: absolute;
+  
+  transform: translate(+10%, -50%);
  }

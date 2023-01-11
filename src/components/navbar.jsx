@@ -17,7 +17,7 @@ import {
 
 
 // import Home component
-import Home from "./Home/home.js";
+import Home from "./Home/home.jsx";
 // import About component
 import About from "./About/About.jsx";
 // import ContactUs component
@@ -25,17 +25,10 @@ import ContactUs from "./Contacts/ContactUs.jsx";
 // import Project component
 import Projects from "./Projects/Projects.jsx";
 //import my picture
-import myPic from './image/me.png'; 
+import homePic from './image/homepic.png'; 
 
 class Title extends Component {
   state = {  } 
-
-  styles = {
-    // fontSize: 20,
-    // fontWeight: "bold",
-    // textAlign: "center",
-    // alignSelf: 'flex-end'
-  };
 
 //navbar height is 111
 
@@ -46,11 +39,13 @@ class Title extends Component {
           {/* <Navbar className = "color-nav" variant="dark"> */}
           <Navbar bg = "dark" variant="dark">
             <Container>
-              <Navbar.Brand href="#">{<img src = {myPic} width="75" alt="" />}</Navbar.Brand>
+              <Navbar.Brand href="#">{<img src = {homePic} width="75" alt="" />}</Navbar.Brand>
                 <Nav className="justify-content-end">
-                  <Nav.Link as={Link} to="/about" style = {this.styles}>About</Nav.Link>
-                  <Nav.Link as={Link} to="/contactUS" style = {this.styles}>Contact me</Nav.Link>
-                  <Nav.Link as={Link} to="/project" style = {this.styles}>My Projects</Nav.Link>
+                  
+                  <Nav.Link as={Link} to="/project" >My Projects</Nav.Link>
+                  <Nav.Link as={Link} to="/about" >Experiences</Nav.Link>
+                  <Nav.Link as={Link} to="/contactUS" >Contact me</Nav.Link>
+                  
                 </Nav>
             </Container>
           </Navbar>

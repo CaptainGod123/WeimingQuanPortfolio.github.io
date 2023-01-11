@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import React from "react"
 
-import myPic from "./homebg.png";
+import bgPic from "./background.jpg";
+import myPic from './me.png'; 
 import './home.css'
 
 function Home() {
@@ -26,13 +27,20 @@ function Home() {
     <header>
       <div className = "head-text">
         <div className = "head-image">
-          <img width = {windowWidth} height = {windowHeight-101} src = {myPic} alt = "Freedom Blog" />
+          <img width = {windowWidth} height = {windowHeight-101} src = {bgPic} alt = "Freedom Blog" />
         </div>
+          
           <div className ='text-on-image'>
-             <h3>Hi, welcome to my website!</h3>
-             <h3>The window width right now is: {windowWidth}</h3>
-             <h3>My name is Weiming Quan</h3>
-             <p> TEST </p>
+            <div className = 'pic'>
+              <img width = {windowWidth / 8} src = {myPic} alt = "Freedom Blog" />
+            </div>
+
+            <div className = 'text' >
+              <p>Hi, my name is Weiming Quan and welcome to my Website!</p>
+              <p>I am a second year computer science student at the University of Toronto Mississauga. Specializing in computer science, and majoring in statistics and economics.</p>
+              <p>Download Resume</p>
+            </div>
+
           </div>
       </div>
     </header>
