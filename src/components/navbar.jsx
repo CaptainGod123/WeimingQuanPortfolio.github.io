@@ -8,6 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 // importing components from react-router-dom package
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { HashRouter } from "react-router-dom";
 
 
 // import Home component
@@ -37,24 +38,26 @@ class Title extends Component {
     return (     
       <Router>
         <div>
-          <Navbar bg="dark" variant="dark">
-            <Container>
-              <Navbar.Brand href="/">{<img src = {myPic} width="75" alt="" />}</Navbar.Brand>
-              <Nav className="justify-content-end">
-                <Nav.Link href="/about" style = {this.styles}>About</Nav.Link>
-                <Nav.Link href="/contactUS" style = {this.styles}>Contact me</Nav.Link>
-                <Nav.Link href="project" style = {this.styles}>My Projects</Nav.Link>
-              </Nav>
-            </Container>
-          </Navbar>
+        <HashRouter>
+            <Navbar bg="dark" variant="dark">
+              <Container>
+                <Navbar.Brand href="/">{<img src = {myPic} width="75" alt="" />}</Navbar.Brand>
+                <Nav className="justify-content-end">
+                  <Nav.Link href="/about" style = {this.styles}>About</Nav.Link>
+                  <Nav.Link href="/contactUS" style = {this.styles}>Contact me</Nav.Link>
+                  <Nav.Link href="project" style = {this.styles}>My Projects</Nav.Link>
+                </Nav>
+              </Container>
+            </Navbar>
 
-          {/* Route components in a Routes component */}
-          <Routes>
-            <Route path="/about" element={<About />} />
-            <Route path="/contactUS" element={<ContactUs />} />
-            <Route path="/project" element={<Projects />} />
-            <Route path="/" element={<Home />} />
-          </Routes>
+            {/* Route components in a Routes component */}
+            <Routes>
+              <Route path="/about" element={<About />} />
+              <Route path="/contactUS" element={<ContactUs />} />
+              <Route path="/project" element={<Projects />} />
+              <Route path="/" element={<Home />} />
+            </Routes>
+          </HashRouter>
 
 
           {/* <Navbar bg="dark" variant="dark">
