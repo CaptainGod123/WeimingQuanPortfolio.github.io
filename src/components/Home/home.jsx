@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import React from "react"
 
 import bgPic from "./background.jpg";
-import myPic from './me.png'; 
+import myPic from './me1.jpg'; 
 import './home.css'
 
 function Home() {
@@ -35,7 +35,7 @@ function Home() {
               <p>Hi, my name is Weiming Quan and welcome to my Website!</p>
             </div>
             <div className = 'pic'>
-              <img width = {windowWidth / 8} src = {myPic} alt = "Freedom Blog" />
+              <img width = {windowWidth / 3} src = {myPic} alt = "Freedom Blog" />
             </div>
 
             <div className = 'text' >
