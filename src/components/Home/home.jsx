@@ -29,16 +29,18 @@ function Home() {
         <div className = "head-image">
           <img width = {windowWidth} height = {windowHeight-101} src = {bgPic} alt = "Freedom Blog" />
         </div>
-          
+
           <div className ='text-on-image'>
+            <div className = "header">
+              <p>Hi, my name is Weiming Quan and welcome to my Website!</p>
+            </div>
             <div className = 'pic'>
               <img width = {windowWidth / 8} src = {myPic} alt = "Freedom Blog" />
             </div>
 
             <div className = 'text' >
-              <p>Hi, my name is Weiming Quan and welcome to my Website!</p>
+              
               <p>I am a second year computer science student at the University of Toronto Mississauga. Specializing in computer science, and majoring in statistics and economics.</p>
-              <p>Download Resume</p>
             </div>
 
           </div>
