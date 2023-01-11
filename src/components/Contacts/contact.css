@@ -1,12 +1,31 @@
 .head-text {
-    position: relative;
+  position: relative;
 }
 
 .text-on-image {
-   color: red;
-   position: absolute;
-   font-size: 50px;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
- }
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
