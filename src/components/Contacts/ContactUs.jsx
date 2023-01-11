@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react';
 import React from "react"
 import Button from 'react-bootstrap/Button';
-import { useNavigate } from "react-router-dom";
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
 import myPic from "./background.jpg";
 import linkedinpic from "./Linkedin-Logo.png";
 import githubpic from "./github-logo.png";
-import resumepic from "./resume-logo.png";
+//import resumepic from "./resume-logo.png";
 import discordpic from "./discord-logo.png";
 import emailpic from "./email.png";
+//import resume from "./Weiming Quan resume.pdf"
 import './contact.css';
 
 function Contact() {
@@ -31,17 +31,16 @@ function Contact() {
     };
   });
 
-  let navigate = useNavigate(); 
-  const toLinkedin = () =>{ 
-    let path = 'https://www.linkedin.com/in/weiming-quan-6280b0243/'; 
-    navigate(path);
-  }
+  // const toResume = () =>{ 
+  //   let path = {resume}; 
+  //   navigate(path);
+  // }
 
-  const renderResume = (props) => (
-    <Tooltip id="button-tooltip" {...props}>
-      Click me to see me resume!!!
-    </Tooltip>
-  );
+  // const renderResume = (props) => (
+  //   <Tooltip id="button-tooltip" {...props}>
+  //     Click me to see me resume!!!
+  //   </Tooltip>
+  // );
   const renderDiscord = (props) => (
     <Tooltip id="button-tooltip" {...props}>
       Click me to copy my Discord tag!!
@@ -50,6 +49,16 @@ function Contact() {
   const renderEmail = (props) => (
     <Tooltip id="button-tooltip" {...props}>
       Click me to copy my email address!!!
+    </Tooltip>
+  );
+  const renderLinkedin = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Click me to copy my Linkedin page!!
+    </Tooltip>
+  );
+  const renderGithub = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Click me to copy my Github page!!!
     </Tooltip>
   );
 
@@ -62,14 +71,26 @@ function Contact() {
           <div className ='text-on-image'>
               <ul>
                 <li>
-                  <Button size="lg" variant="top" onClick={toLinkedin}>
-                    <img src={linkedinpic} alt="add item" width = {windowWidth / 10} /> 
-                  </Button>
+                  <OverlayTrigger
+                    placement="bottom"
+                    delay={{ show: 100, hide: 400 }}
+                    overlay={renderLinkedin}
+                  >
+                    <Button size="lg" variant="top" onClick={event =>  window.location.href='https://www.linkedin.com/in/weiming-quan-6280b0243/'}>
+                      <img src={linkedinpic} alt="add item" width = {windowWidth / 10} /> 
+                    </Button>
+                  </OverlayTrigger>
                 </li>
                 <li>
-                  <Button size="lg" variant="top">
-                    <img src={githubpic} alt="add item" width = {windowWidth / 10}/> 
-                  </Button>
+                  <OverlayTrigger
+                    placement="bottom"
+                    delay={{ show: 100, hide: 400 }}
+                    overlay={renderGithub}
+                  >
+                    <Button size="lg" variant="top" onClick={event =>  window.location.href='https://github.com/CaptainGod123'}>
+                      <img src={githubpic} alt="add item" width = {windowWidth / 10}/> 
+                    </Button>
+                  </OverlayTrigger>
                 </li>
                 <li>
                   <OverlayTrigger
@@ -95,18 +116,18 @@ function Contact() {
 
                 </li>
               </ul>
-              <div class = "button">
+              {/* <div class = "button">
                 <OverlayTrigger
                   placement="bottom"
                   delay={{ show: 100, hide: 400 }}
                   overlay={renderResume}
                 >
-                  <Button size="lg" variant="top">
+                  <Button size="lg" variant="top" onClick={toResume}>
                     <img src={resumepic} alt="add item" width = {windowWidth / 7.5}/> 
                   </Button>
                 </OverlayTrigger>
                   
-              </div>
+              </div> */}
           </div>
       </div>
 
