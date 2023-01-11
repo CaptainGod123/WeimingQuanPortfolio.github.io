@@ -1,31 +1,16 @@
-.head-text {
-  position: relative;
-}
-
-.text-on-image {
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-
+  margin: 50;
 }
 
 li {
   float: left;
 }
 
-li a {
-  display: block;
-  color: rgb(0, 0, 0);
-  padding: 40px;
-  text-decoration: none;
+.button {
+  position: absolute;
+  bottom: -150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-p {
-  font-size: 16px;
-}
