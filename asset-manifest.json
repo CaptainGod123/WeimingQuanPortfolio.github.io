@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/weiming-quan-portfolio/static/css/main.ac910256.css",
-    "main.js": "/weiming-quan-portfolio/static/js/main.17cc11f4.js",
+    "main.css": "/weiming-quan-portfolio/static/css/main.ffc332a1.css",
+    "main.js": "/weiming-quan-portfolio/static/js/main.51dc71fb.js",
     "static/js/787.8c446b28.chunk.js": "/weiming-quan-portfolio/static/js/787.8c446b28.chunk.js",
+    "static/media/Linkedin-Logo.png": "/weiming-quan-portfolio/static/media/Linkedin-Logo.b1bebb391a157454d569.png",
     "static/media/homepic.png": "/weiming-quan-portfolio/static/media/homepic.c7a6b775d70de22c8488.png",
     "static/media/me.png": "/weiming-quan-portfolio/static/media/me.1b279eef2885f969b61e.png",
+    "static/media/resume-logo.png": "/weiming-quan-portfolio/static/media/resume-logo.93d4561eab387e373a0a.png",
     "static/media/background.jpg": "/weiming-quan-portfolio/static/media/background.563d80c9ac1c57286a88.jpg",
+    "static/media/email.png": "/weiming-quan-portfolio/static/media/email.f33e9d7389425e7ac652.png",
     "index.html": "/weiming-quan-portfolio/index.html",
-    "main.ac910256.css.map": "/weiming-quan-portfolio/static/css/main.ac910256.css.map",
-    "main.17cc11f4.js.map": "/weiming-quan-portfolio/static/js/main.17cc11f4.js.map",
+    "main.ffc332a1.css.map": "/weiming-quan-portfolio/static/css/main.ffc332a1.css.map",
+    "main.51dc71fb.js.map": "/weiming-quan-portfolio/static/js/main.51dc71fb.js.map",
     "787.8c446b28.chunk.js.map": "/weiming-quan-portfolio/static/js/787.8c446b28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac910256.css",
-    "static/js/main.17cc11f4.js"
+    "static/css/main.ffc332a1.css",
+    "static/js/main.51dc71fb.js"
   ]
 }
