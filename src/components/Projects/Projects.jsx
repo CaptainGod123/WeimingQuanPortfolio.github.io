@@ -39,7 +39,7 @@ function Projects() {
             <img
               className="d-block w-100"
               width = {windowWidth}
-              height = {windowHeight-111}
+              height = {windowHeight-101}
               src={bgPic}
               alt="First slide"
             />
@@ -54,7 +54,7 @@ function Projects() {
           <img
               className="d-block w-100"
               width = {windowWidth}
-              height = {windowHeight-111}
+              height = {windowHeight-101}
               src={bgPic}
               alt="First slide"
             />
@@ -70,7 +70,7 @@ function Projects() {
             <img
                 className="d-block w-100"
                 width = {windowWidth}
-                height = {windowHeight-111}
+                height = {windowHeight-101}
                 src={bgPic}
                 alt="First slide"
               />

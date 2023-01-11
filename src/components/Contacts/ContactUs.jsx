@@ -25,7 +25,7 @@ function Contact() {
         <header>
             <div className = "head-text">
                 <div className = "head-image">
-                    <img width = {windowWidth} height = {windowHeight-111} src = {myPic} alt = "Freedom Blog" />
+                    <img width = {windowWidth} height = {windowHeight-101} src = {myPic} alt = "Freedom Blog" />
                 </div>
                 <div className ='text-on-image'>
                     <h3>Hi, welcome to my website!</h3>

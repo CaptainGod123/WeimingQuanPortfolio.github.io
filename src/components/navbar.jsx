@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 
+import './navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-// importing components from react-router-dom package
-//import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-//import { Routes, Route, HashRouter } from "react-router-dom";
+
 import {
     HashRouter as Router,
     Routes,
@@ -44,7 +43,8 @@ class Title extends Component {
     return (     
       <Router>
         <div>
-          <Navbar bg="dark" variant="dark">
+          {/* <Navbar className = "color-nav" variant="dark"> */}
+          <Navbar bg = "dark" variant="dark">
             <Container>
               <Navbar.Brand href="#">{<img src = {myPic} width="75" alt="" />}</Navbar.Brand>
                 <Nav className="justify-content-end">
