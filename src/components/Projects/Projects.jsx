@@ -40,7 +40,7 @@ function Projects() {
 
     return (
       <div>
-          <Carousel fade>
+          <Carousel fade variant = "dark">
           <Carousel.Item interval={2000}>
             <img
               className="image"
