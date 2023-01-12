@@ -43,12 +43,12 @@ function Contact() {
   // );
   const renderDiscord = (props) => (
     <Tooltip id="button-tooltip" {...props}>
-      Click me to copy my Discord tag!!
+      Click me to go my Discord tag!!
     </Tooltip>
   );
   const renderEmail = (props) => (
     <Tooltip id="button-tooltip" {...props}>
-      Click me to copy my email address!!!
+      Click me to go my email address!!!
     </Tooltip>
   );
   const renderLinkedin = (props) => (
