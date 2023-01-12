@@ -41,11 +41,9 @@ class Title extends Component {
             <Container>
               <Navbar.Brand href="#">{<img src = {homePic} width="75" alt="" />}</Navbar.Brand>
                 <Nav className="justify-content-end">
-                  
                   <Nav.Link as={Link} to="/project" >My Projects</Nav.Link>
-                  <Nav.Link as={Link} to="/about" >Experiences</Nav.Link>
+                  {/* <Nav.Link as={Link} to="/about" >Experiences</Nav.Link> */}
                   <Nav.Link as={Link} to="/contactUS" >Contact me</Nav.Link>
-                  
                 </Nav>
             </Container>
           </Navbar>

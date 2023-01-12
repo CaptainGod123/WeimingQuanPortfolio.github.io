@@ -27,13 +27,24 @@ function Home() {
     <header>
       <div className = "head-text">
         <div className = "head-image">
-          <img width = {windowWidth} height = {windowHeight-101} src = {bgPic} alt = "Freedom Blog" />
+          <img width = {windowWidth} height = {windowHeight-101} src = {bgPic} alt = "bg" />
         </div>
-        <div className ='text-on-image'>           
-          <img id = "pic" width = {windowWidth / 3} src = {myPic} alt = "Freedom Blog" />
-          <h3>Hi, my name is Weiming Quan and welcome to my Website!</h3>
+
+        <div id ='header-on-image'>      
+          <p>Hi, my name is Weiming Quan,</p>
+          <p>Welcome to my Website!</p>
+        </div>
+
+        <div id ='p-on-image'>
           <p>I am a second year computer science student at the University of Toronto Mississauga. Specializing in computer science, and majoring in statistics and economics.</p>
+          <p>I am also an analyst at the Capital Management club at UTM, fulfilling my interests in statistics and economics.</p>
+          <p>I love to code, travel, play games, and learn new stuff during my free time. Attending Hackathons is also something else that I am very interested in.</p>
         </div>
+        
+        <div className ='pic-on-image'>      
+          <img width = {windowWidth / 3} src = {myPic} alt = "me" />
+        </div>
+        
       </div>
     </header>
 
