@@ -65,70 +65,70 @@ function Contact() {
   return (
     <header>
       <div>
-          <div>
-              <img width = {windowWidth} height = {windowHeight-101} src = {myPic} alt = "Freedom Blog" />
-          </div>
-          <div className ='text-on-image'>
-              <ul>
-                <li>
-                  <OverlayTrigger
-                    placement="bottom"
-                    delay={{ show: 100, hide: 400 }}
-                    overlay={renderLinkedin}
-                  >
-                    <Button size="lg" variant="top" onClick={event =>  window.location.href='https://www.linkedin.com/in/weiming-quan-6280b0243/'}>
-                      <img src={linkedinpic} alt="add item" width = {windowWidth / 10} /> 
-                    </Button>
-                  </OverlayTrigger>
-                </li>
-                <li>
-                  <OverlayTrigger
-                    placement="bottom"
-                    delay={{ show: 100, hide: 400 }}
-                    overlay={renderGithub}
-                  >
-                    <Button size="lg" variant="top" onClick={event =>  window.location.href='https://github.com/CaptainGod123'}>
-                      <img src={githubpic} alt="add item" width = {windowWidth / 10}/> 
-                    </Button>
-                  </OverlayTrigger>
-                </li>
-                <li>
-                  <OverlayTrigger
-                    placement="bottom"
-                    delay={{ show: 100, hide: 400 }}
-                    overlay={renderDiscord}
-                  >
-                    <Button size="lg" variant="top" onClick={() => {navigator.clipboard.writeText("C_GOD#7995")}}>
-                      <img src={discordpic} alt="add item" width = {windowWidth / 10}/> 
-                    </Button>
-                  </OverlayTrigger>
-                </li>
-                <li>
-                  <OverlayTrigger
-                      placement="bottom"
-                      delay={{ show: 100, hide: 400 }}
-                      overlay={renderEmail}
-                  >
-                    <Button size="lg" variant="top" onClick={() => {navigator.clipboard.writeText("qwm0728@gmail.com")}}>
-                      <img src={emailpic} alt="add item" width = {windowWidth / 10}/> 
-                    </Button>
-                  </OverlayTrigger>
-
-                </li>
-              </ul>
-              {/* <div class = "button">
+        <div>
+            <img width = {windowWidth} height = {windowHeight-101} src = {myPic} alt = "Freedom Blog" />
+        </div>
+        <div className ='text-on-image'>
+            <ul>
+              <li>
                 <OverlayTrigger
                   placement="bottom"
                   delay={{ show: 100, hide: 400 }}
-                  overlay={renderResume}
+                  overlay={renderLinkedin}
                 >
-                  <Button size="lg" variant="top" onClick={toResume}>
-                    <img src={resumepic} alt="add item" width = {windowWidth / 7.5}/> 
+                  <Button size="lg" variant="top" onClick={event =>  window.location.href='https://www.linkedin.com/in/weiming-quan-6280b0243/'}>
+                    <img src={linkedinpic} alt="add item" width = {windowWidth / 10} /> 
                   </Button>
                 </OverlayTrigger>
-                  
-              </div> */}
-          </div>
+              </li>
+              <li>
+                <OverlayTrigger
+                  placement="bottom"
+                  delay={{ show: 100, hide: 400 }}
+                  overlay={renderGithub}
+                >
+                  <Button size="lg" variant="top" onClick={event =>  window.location.href='https://github.com/CaptainGod123'}>
+                    <img src={githubpic} alt="add item" width = {windowWidth / 10}/> 
+                  </Button>
+                </OverlayTrigger>
+              </li>
+              <li>
+                <OverlayTrigger
+                  placement="bottom"
+                  delay={{ show: 100, hide: 400 }}
+                  overlay={renderDiscord}
+                >
+                  <Button size="lg" variant="top" onClick={() => {navigator.clipboard.writeText("C_GOD#7995")}}>
+                    <img src={discordpic} alt="add item" width = {windowWidth / 10}/> 
+                  </Button>
+                </OverlayTrigger>
+              </li>
+              <li>
+                <OverlayTrigger
+                    placement="bottom"
+                    delay={{ show: 100, hide: 400 }}
+                    overlay={renderEmail}
+                >
+                  <Button size="lg" variant="top" onClick={() => {navigator.clipboard.writeText("qwm0728@gmail.com")}}>
+                    <img src={emailpic} alt="add item" width = {windowWidth / 10}/> 
+                  </Button>
+                </OverlayTrigger>
+
+              </li>
+            </ul>
+            {/* <div class = "button">
+              <OverlayTrigger
+                placement="bottom"
+                delay={{ show: 100, hide: 400 }}
+                overlay={renderResume}
+              >
+                <Button size="lg" variant="top" onClick={toResume}>
+                  <img src={resumepic} alt="add item" width = {windowWidth / 7.5}/> 
+                </Button>
+              </OverlayTrigger>
+                
+            </div> */}
+        </div>
       </div>
 
     </header>
