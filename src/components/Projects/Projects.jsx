@@ -41,7 +41,7 @@ function Projects() {
     return (
       <div>
           <Carousel fade>
-          <Carousel.Item interval={100}>
+          <Carousel.Item interval={2npm 000}>
             <img
               className="image"
               width = {windowWidth}
@@ -74,7 +74,7 @@ function Projects() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item interval={100}>
+          <Carousel.Item interval={2000}>
           <img
               className="image"
               width = {windowWidth}
@@ -107,7 +107,7 @@ function Projects() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item interval={100}>
+          <Carousel.Item interval={2000}>
             <img
                 className="iamge"
                 width = {windowWidth}
