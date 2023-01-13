@@ -36,7 +36,7 @@ function Home() {
         </div>
 
         <div id ='p-on-image'>
-          <p>I am a computer science student at the University of Toronto Mississauga. My areas of expertise include computer science, statistics, and economics. I am also an analyst at the Capital Management club at UTM, where I am able to combine my passion for statistics and economics. In my free time, I love to code, travel, play games, and am always eager to learn new things. I am also an avid hackathon participant. On my website, you can learn more about my projects and experiences. Please don't hesitate to reach out to me if you have any questions or just want to connect.</p>
+          <p>As a second-year computer science scholar at the prestigious University of Toronto Mississauga, I am honing my expertise in the field of computer science, while also delving into the intricacies of statistics and economics through my major studies. I am also privileged to hold the position of analyst at the esteemed Capital Management club at UTM, where I am able to fully indulge my passion for statistics and economics. In my leisure time, I am an avid enthusiast of coding, travel, and gaming, always seeking new and stimulating experiences. Attending hackathons is also a particular interest of mine, as it allows me to challenge myself and push the boundaries of my knowledge and abilities. On my website, you can learn more about my projects and experiences. Please don't hesitate to reach out to me if you have any questions or just want to connect.</p>
         </div>
         
         <div className ='pic-on-image'>      
