@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/weiming-quan-portfolio/static/css/main.108702b0.css",
-    "main.js": "/weiming-quan-portfolio/static/js/main.35042ab4.js",
+    "main.js": "/weiming-quan-portfolio/static/js/main.d196e8d1.js",
     "static/js/787.8c446b28.chunk.js": "/weiming-quan-portfolio/static/js/787.8c446b28.chunk.js",
     "static/media/me1.jpg": "/weiming-quan-portfolio/static/media/me1.d2b783860ec90c539fe2.jpg",
     "static/media/stocks.jpg": "/weiming-quan-portfolio/static/media/stocks.74175febee58a28b0c13.jpg",
@@ -13,11 +13,11 @@
     "static/media/email.png": "/weiming-quan-portfolio/static/media/email.f33e9d7389425e7ac652.png",
     "index.html": "/weiming-quan-portfolio/index.html",
     "main.108702b0.css.map": "/weiming-quan-portfolio/static/css/main.108702b0.css.map",
-    "main.35042ab4.js.map": "/weiming-quan-portfolio/static/js/main.35042ab4.js.map",
+    "main.d196e8d1.js.map": "/weiming-quan-portfolio/static/js/main.d196e8d1.js.map",
     "787.8c446b28.chunk.js.map": "/weiming-quan-portfolio/static/js/787.8c446b28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.108702b0.css",
-    "static/js/main.35042ab4.js"
+    "static/js/main.d196e8d1.js"
   ]
 }
