@@ -63,6 +63,10 @@ function Contact() {
   );
 
   return (
+
+
+
+
     <header>
       <div>
         <div>
@@ -76,7 +80,7 @@ function Contact() {
                   delay={{ show: 100, hide: 400 }}
                   overlay={renderLinkedin}
                 >
-                  <Button size="lg" variant="top" onClick={event =>  window.location.href='https://www.linkedin.com/in/weiming-quan-6280b0243/'}>
+                  <Button size="lg" variant="top" onClick={event =>  window.open('https://www.linkedin.com/in/weiming-quan-6280b0243/', '_blank')}>
                     <img src={linkedinpic} alt="add item" width = {windowWidth / 10} /> 
                   </Button>
                 </OverlayTrigger>
@@ -87,10 +91,14 @@ function Contact() {
                   delay={{ show: 100, hide: 400 }}
                   overlay={renderGithub}
                 >
-                  <Button size="lg" variant="top" onClick={event =>  window.location.href='https://github.com/CaptainGod123'}>
+                  <Button size="lg" variant="top" onClick={event =>  window.open('https://github.com/CaptainGod123', '_blank')}>
                     <img src={githubpic} alt="add item" width = {windowWidth / 10}/> 
                   </Button>
+
                 </OverlayTrigger>
+                {/* <Link to="https://github.com/CaptainGod123" target="_blank" rel="noopener noreferrer">
+                  Open First Component
+                </Link> */}
               </li>
               <li>
                 <OverlayTrigger

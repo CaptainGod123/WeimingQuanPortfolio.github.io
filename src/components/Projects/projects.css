@@ -1,3 +1,7 @@
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+}
+
 .image {
     position: relative;
 }
@@ -6,7 +10,7 @@
   color: rgb(0, 0, 0);
 }
 
-#header-on-image1 {
+.header-on-image1 {
   color: rgb(0, 0, 0);
   overflow: hidden;
   position: absolute;
@@ -19,7 +23,7 @@
   top: 15%;
 }
 
-#p-on-image1 {
+.p-on-image1 {
   color: rgb(0, 0, 0);
   overflow: hidden;
   position: absolute;
@@ -28,7 +32,7 @@
   font-family: American Typewriter, serif;
   width: 42%;
   left: 50%;
-  top: 40%;
+  top: 30%;
 }
 
 .pic-on-image1 {
@@ -39,14 +43,14 @@
 
 .meme-on-image1 {
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 8%;
 }
 
 .button-on-image1 {
   position: absolute;
-  top: 65%;
-  left: 65%;
+  bottom: 5%;
+  right: 5%;
 }
 
 .title-on-image2 {
