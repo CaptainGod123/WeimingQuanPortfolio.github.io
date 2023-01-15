@@ -3,7 +3,7 @@ import React from "react"
 
 import bgPic from "./background.jpg";
 import myPic from './me1.jpg'; 
-import './home.css'
+import './landing.css'
 
 function Home() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

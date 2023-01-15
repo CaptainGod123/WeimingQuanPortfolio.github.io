@@ -7,10 +7,8 @@ import Tooltip from 'react-bootstrap/Tooltip';
 import myPic from "./background.jpg";
 import linkedinpic from "./Linkedin-Logo.png";
 import githubpic from "./github-logo.png";
-//import resumepic from "./resume-logo.png";
 import discordpic from "./discord-logo.png";
 import emailpic from "./email.png";
-//import resume from "./Weiming Quan resume.pdf"
 import './contact.css';
 
 function Contact() {
@@ -63,10 +61,6 @@ function Contact() {
   );
 
   return (
-
-
-
-
     <header>
       <div>
         <div>
@@ -96,9 +90,6 @@ function Contact() {
                   </Button>
 
                 </OverlayTrigger>
-                {/* <Link to="https://github.com/CaptainGod123" target="_blank" rel="noopener noreferrer">
-                  Open First Component
-                </Link> */}
               </li>
               <li>
                 <OverlayTrigger
@@ -146,6 +137,3 @@ function Contact() {
 }
   
 export default Contact;
-
-// Have all the contact info/ socials here 
-// might rename to something else --- socials contact me etc

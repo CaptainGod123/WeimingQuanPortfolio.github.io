@@ -17,7 +17,7 @@ import {
 
 
 // import Home component
-import Home from "./Home/home.jsx";
+import Home from "./Landing/Landing.jsx";
 // import About component
 import About from "./About/About.jsx";
 // import ContactUs component

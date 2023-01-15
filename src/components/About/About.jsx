@@ -41,9 +41,3 @@ function About() {
 }
   
 export default About;
-
-
-
-
-// This page will be a self introduction
-// Include images of interests like coding gaming etc (make them into a slide show maybe)

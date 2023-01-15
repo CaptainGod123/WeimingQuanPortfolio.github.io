@@ -28,16 +28,6 @@ function Projects() {
       };
     });
 
-    //accordations https://react-bootstrap.github.io/components/accordion/
-
-    //for going through the different projects... either cards or carousel (crossfade)
-    //https://react-bootstrap.github.io/components/cards/
-    //https://react-bootstrap.github.io/components/carousel/
-
-    //Or use Overlay
-    //Where we have the list of projects at the bottom, and by clicking them show the overlay card
-    //https://react-bootstrap.github.io/components/overlays/
-
     return (
       <div>
           <Carousel fade variant = "dark">
@@ -190,7 +180,3 @@ function Projects() {
 }
   
 export default Projects;
-
-
-// This page will include button and links to all the projects that I have document
-// Link to github projects
