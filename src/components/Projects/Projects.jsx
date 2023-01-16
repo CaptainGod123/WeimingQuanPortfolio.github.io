@@ -30,8 +30,8 @@ function Projects() {
 
     return (
       <div>
-          <Carousel fade variant = "dark">
-          <Carousel.Item interval={2000}>
+          <Carousel fade variant = "dark" interval = {null}>
+          <Carousel.Item>
             <img
               className="image"
               width = {windowWidth}
@@ -43,23 +43,10 @@ function Projects() {
               <p>Credable, the fake news detector!</p>
             </div>
             <div className ='p-on-image1'>
-              <ul>
-                <li>
-                  <p>This is a google extension that determine whether a news article is credible or not. </p>
-                </li>
-                <li>
-                  <p>This google extension are mainly targeted to be used by students and researchers. </p>
-                </li>
-                <li>
-                  <p>Credable has potential as it saves researchers and students countless time. </p>
-                </li>
-                <li>
-                  <p>This project is written in the language Python. </p>
-                </li>
-                <li>
-                  <p>Created by Weiming Quan, Kevin Ni, Omar Jaljoulli, and Zein Sleiman. </p>
-                </li>
-              </ul>
+              <p>This is a google extension that determines the credibility of the input news article . </p>
+              <p>The targeted users are students and researchers. </p>
+              <p>Credable has potential to improve the searching effectiveness and efficiency by saving users' tremendous time. </p>
+              <p>This project is written in the language Python and developed by Weiming Quan, Kevin Ni, Omar Jaljoulli, and Zein Sleiman. </p>  
             </div>
             <div className ='pic-on-image1'>      
               <img width = {windowWidth / 3} src = {credablepic} alt = "me" />
@@ -72,14 +59,12 @@ function Projects() {
                 <img src={githubpic} alt="add item" width = {windowWidth / 20} /> 
               </Button>
             </div>
-            <Carousel.Caption>
-              <div className = "text1">
-                <h3>Credable</h3>
-              </div>
-            </Carousel.Caption>
+            <div className = 'text1'>
+              <p>Check out the github page &#8594;</p>
+            </div>
           </Carousel.Item>
 
-          <Carousel.Item interval={2000}>
+          <Carousel.Item>
           <img
               className="image"
               width = {windowWidth}
@@ -91,24 +76,10 @@ function Projects() {
               <p>StockthePast, the stock simulator!</p>
             </div>
             <div className ='p-on-image1'>
-              <ul>
-                <li>
-                  <p>This is a fintech application that helps users practice their investing skills in the stock market. </p>
-                </li>
-                <li>
-                  <p>This application has a target group of people who are new to the stocks and investing. </p>
-                </li>
-                <li>
-                  <p>StockthePast will help beginner investor to get more hands on.</p>
-                </li>
-                <li>
-                  <p>This project is written in the language Java. </p>
-                </li>
-                <li>
-                  <p>Created by Weiming Quan, Kevin Ni, Kai Wang, and David Hu. </p>
-                </li>
-              </ul>
-            </div>
+              <p>This is a fintech application that helps users practice their investing skills in the stock market. It is designed for a target group who are new to stock investing.</p>
+              <p>StockthePast will help beginners get more hands on investing experiences through the simulation without the use of real money.</p> 
+              <p>This project is written in the language Java and developed by Weiming Quan, Kevin Ni, Kai Wang, and David Hu. </p>  
+              </div>
             <div className ='title-on-image2'>      
               <p>StockthePast</p>
             </div>
@@ -120,14 +91,13 @@ function Projects() {
                 <img src={githubpic} alt="add item" width = {windowWidth / 20} /> 
               </Button>
             </div>
-            <Carousel.Caption>
-              <div className = "text1">
-                  <h3>StockthePast</h3>
-              </div>
-            </Carousel.Caption>
+            <div className = 'text1'>
+              <p>Check out the github page &#8594;</p>
+            </div>
+
           </Carousel.Item>
 
-          <Carousel.Item interval={2000}>
+          <Carousel.Item>
             <img
                 className="iamge"
                 width = {windowWidth}
@@ -137,23 +107,9 @@ function Projects() {
             />
 
             <div className ='p-on-image1'>
-              <ul>
-                <li>
-                  <p>This is a personal website about me ;). </p>
-                </li>
-                <li>
-                  <p>Feel me to check out the source code on the bottom right. </p>
-                </li>
-                <li>
-                  <p>Feel free to contact me through the contact page.</p>
-                </li>
-                <li>
-                  <p>This website is written in the languages JavaScript (React), CSS, and HTML. </p>
-                </li>
-                <li>
-                  <p>Created by Weiming Quan. </p>
-                </li>
-              </ul>
+              <p>This personal website is written in the languages JavaScript (React), CSS, and HTML.</p>
+              <p>Developed by Weiming Quan</p>
+              <p>Feel free to check out the souce code or contact me.</p>
             </div>
             <div className ='title-on-image2'>      
               <p>this.website</p>
@@ -166,13 +122,10 @@ function Projects() {
                 <img src={githubpic} alt="add item" width = {windowWidth / 20} /> 
               </Button>
             </div>
-            <Carousel.Caption>
-              <div className = "text1">
-                <h3>Personal Porfolio</h3>
-              </div>
-            </Carousel.Caption>
+            <div className = 'text1'>
+              <p>Check out the github page &#8594;</p>
+            </div>
           </Carousel.Item>
-
         </Carousel>
       </div>
     );
